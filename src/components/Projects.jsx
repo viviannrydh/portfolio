@@ -4,7 +4,7 @@ import photochatlogin from '../images/photochatlogin.png';
 import mathapp from '../images/mathApp.jpg';
 import movieAPI from '../images/movieAPI.jpg'
 import theShoeStore from '../images/the shoe store.jpg'
-import canadaCountryRoad from '../images/canadaCountryRoad.jpg';
+import canadaCountryRoad from '../images/CanadaCountryRoad.jpg';
 import todos from '../images/todos.jpg'
 import amazon from '../images/amazon-clone.jpg'
 
