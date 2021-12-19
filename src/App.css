@@ -1,0 +1,202 @@
+
+.App{
+  background-color:rgb(231, 230, 238);
+  width:100%;
+  font-family: 'Lora', serif;
+  margin-top: 0%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.project-title{
+  background-color: rgb(231, 230, 238);
+  color:rgb(254, 251, 251);
+  width:100%;
+  font-size: 18em;
+  margin-top: 0;
+  text-align: right;
+  margin-bottom: 4.5%;
+  padding-right: 0%;
+  margin-left: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.project-container{
+  width:100%;
+}
+
+.project-wrapper{
+  margin-top: 0%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  background-color:rgb(231, 230, 238);
+}
+
+.second-wrapper{
+  margin-bottom:-18%;
+}
+
+
+.project-images{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:1%;
+}
+.project-card{
+  background-color:none;
+  width:28%;
+  margin:2%;
+  border-radius: 2px;
+  height:535px;
+  background-color: rgb(249, 250, 250);
+  border: 0.05rem outset rgb(254, 251, 251)
+  {/*box-shadow: 0 0 0 0.2rem rgb(241, 238, 238);*/}
+}
+
+a{
+  text-decoration: none;
+}
+.more-btn{
+  border: none;
+  margin-left: 90%;
+  background-color:rgb(238, 234, 234);
+  border-radius: 50%;
+}
+.math-img{
+  width:100%;
+  height:350px;
+  object-fit: cover;
+}
+.project-img{
+  width:100%;
+  height:350px;
+  object-fit: fit; 
+}
+.project-intro{
+  width: 90%;
+  display:flex;
+  flex-direction: column;
+  color:rgb(32, 30, 30);
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.2em;
+  margin-top: 3%;
+  padding:2%;
+  text-align: center;
+}
+
+h3{
+  color:rgb(40, 41, 43);
+  font-size: 1.1em;
+  font-weight: bold;
+}
+button {
+  font-size: 1em;
+  border:none;
+  padding:3%;
+  background-color: rgb(231, 231, 235);
+  color:rgb(1, 37, 48);
+  border-radius: 10px;
+}
+
+.wrapper{
+  width:100%;
+  margin-top: 0%;
+  color:rgb(185, 183, 197);
+  height:140vh;
+  background-color: rgb(22, 21, 31);
+}
+
+.project-links{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: -25px;
+}
+.aboutme-title{
+  margin-top: -2%;
+  background-color: rgb(22, 21, 31);
+  color:rgb(88, 88, 90);
+  width:100%;
+  font-size: 17.5em;
+  padding-left: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.aboutme-wrapper{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -5%;
+}
+.aboutme-selfie{
+  width:25%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.aboutme-self-info{
+  width:45%;
+  font-size: 2em;
+  margin-right: 5%;
+  line-height: 1.5em;
+}
+
+.header-wrapper{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left:5%;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  background-color: rgb(55, 56, 56); 
+  color:rgb(231, 230, 238);
+  
+}
+
+.logo{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  margin-top: 1.5%;
+}
+
+.links-wrapper{
+  display:flex;
+  flex-direction: row;
+  width:30%;
+  justify-content: space-around;
+  padding-top: 2.5%;
+  padding-bottom: 0.5%;
+  font-size: 1.5em;
+}
+
+.link{
+  text-decoration: none;
+  color:whitesmoke;
+  font-size: 1.05em;
+}
+
+a:hover{
+ color:rgb(207, 235, 248);
+}
