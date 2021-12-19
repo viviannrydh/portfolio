@@ -58,7 +58,7 @@ const Projects = () => {
         </div>
         <div className="project-card third">
           <div className="project-images">
-            <a href="https://canada-immigration.herokuapp.com/"><img src={canadaCountryRoad} alt="shoeStore" className="project-img" /></a>
+            <a href="https://canada-immigration.herokuapp.com/"><img src={canadaCountryRoad} alt="canada-country-road" className="project-img" /></a>
           </div>
           <div className="project-intro">
 
